@@ -1,7 +1,7 @@
 async function food() {
 
   let response = await fetch(
-    `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country}`
+    `https://www.themealdb.com/api/json/v1/1/filter.php?a=British`
   );
   let obj = await response.json();
   let foods = obj.meals;
